@@ -1,2 +1,2 @@
-# Nested_Recylcer_View
+# Nested Recylcer View
 Android Nested RecyclerView Vertical
