@@ -14,11 +14,11 @@ public class MockData {
         List<Group> groupList = new ArrayList<>();
         for (int i = 1; i < 5; i++) {
             Group group = new Group();
-            group.setTitle("Group Title " + i);
+            group.setTitle("Group Title : " + i);
             List<Baby> babyList = new ArrayList<>();
             for (int j = 1; j < 5; j++) {
                 Baby baby = new Baby();
-                baby.setTitle("Child Title " + j);
+                baby.setTitle("Child Title : " + j);
                 babyList.add(baby);
             }
             group.setBabies(babyList);
